@@ -1,0 +1,26 @@
+
+#content_body{
+margin:20px;
+
+}
+h3{
+	font-size:25px;
+	font-weight:400;
+	color:rgb(200, 64, 43);
+	border-bottom:1px solid rgb(200, 64, 43);
+	width:80%;
+}
+.gridster{
+	margin-top:40px;
+}
+
+
+
+
+
+@media screen and (max-width:1024px){
+	#content_body {
+	    margin: 0;
+	}
+}
+

@@ -1,0 +1,92 @@
+* {
+  margin:0;
+  padding:0;
+  font-family:Arial;
+}
+
+
+#wrapper-routes {
+     width: 740px;
+     margin-left: auto;
+     margin-right: auto;
+     line-height:40px;
+}
+
+.route-label {
+  color:#A80A0B;
+  font-size:17px;
+}
+
+.route-value {
+  font-size:17px;
+  background:#dedede;
+  padding:10px;
+  margin-left:5px;
+  margin-right:5px;
+  font-weight:bold;
+}
+
+#wrapper-routes button, .assistant-wrapper.first button{
+    margin-top:20px;
+    margin-left:10px;
+    font-size:16px;
+    padding:4px;
+}
+
+#routes,#form-routes {
+     background:#EAECEE;
+}
+
+.route {
+    padding:10px;
+    background: #efefef;
+    border: 1px solid grey;
+}
+
+.route.blocked,.route.blocked a {
+  background: #A80A0B;
+  color:white;
+}
+
+.route .info {
+  
+  
+}
+
+.route .info .route-name{
+  font-size:16px;
+  font-weight:bold;
+  margin-bottom:10px; 
+  text-align:center; 
+}
+
+.route .info .route-desc{
+ 
+  
+}
+
+.route .controls{
+  margin:5px;
+  height:65px;
+  text-align:right;
+}
+
+#form-routes form { 
+  padding:10px;
+  margin:10px;  
+}
+
+
+#form-routes .element-form {
+  margin:15px;
+  padding:10px;
+}
+
+#form-routes .element-form #name,#form-routes .element-form #desc {
+  width:100%;
+}
+
+.new-route {
+
+}
+

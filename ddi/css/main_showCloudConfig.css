@@ -1,0 +1,222 @@
+
+#content_body{
+margin:30px;
+}
+
+fieldset{
+	border:none;
+	border-radius:0px;
+	border-top:1px solid #C8402B;
+	box-shadow:none;
+	width:80%;
+	padding:0px;
+	margin-bottom:20px;
+}
+
+fieldset legend{
+	border:0;
+	font-size:20px;
+	margin-bottom:50px;
+}
+fieldset span{
+	margin-right:50px;
+	vertical-align:middle !important;
+}
+fieldset label{
+	margin-right:20px;
+}
+fieldset p{
+	margin:15px 0px;
+}
+
+
+fieldset input.text{
+	padding:5px !important;
+	width:300px !important;
+}
+.line p{
+	display:inline-block !important;
+}
+span.line{
+	width:150px !important;
+	margin:0px;
+}
+#client_cost_user_month{
+	width:80px !important;
+}
+#extra_users,
+#client_nbr_users{
+	width:50px !important;
+}
+
+#total_amount,#percent_discount,#final_amount{
+	width:80px !important;
+	margin-right:5px;
+}
+
+.pijadita{
+	display:inline-block;
+	position:relative;
+	top:2px;
+	left:-28px;
+	width:15px;
+	height:16px;
+	padding:5px;
+	background:#f0f0f0;
+	border:1px solid #CCCCCC;
+	text-align:center;
+}
+.pijaditas{
+	position:relative;
+	top:-43px;
+	left:305px;
+	text-align:center;
+}
+.pijaditas div{
+	position:absolute;
+	width:15px;
+	height:16px;
+	padding:5px;
+	background:#f0f0f0;
+	border:1px solid #CCCCCC;
+}
+.pijaditas div:nth-child(2){
+	left: 75px;
+	width: 50px;
+}
+.pijaditas div:last-child{
+	left:222px;
+}
+input.button{
+	margin-left: 458px;
+}
+
+input.button.line{
+	margin: 0px 0px 0px 0px;
+}
+
+
+@media screen and (max-width:1024px){
+	#content_body {
+    	margin: -20px 0px 0px 0px;
+	}
+
+	fieldset {
+		width: 100%;
+	}
+
+	input.button{
+		margin-left: 410px;
+	}
+}
+
+
+
+@media screen and (max-width:990px){
+ 	span.line {
+	    width: 184px !important;
+	}
+
+	#client_cost_user_month {
+	    margin-left: 0px;
+	}
+
+	fieldset span{
+		margin-right:0;
+	}
+}
+
+@media screen and (max-width:704px){
+	fieldset p .entitle_medium{
+		width: 100px;
+	}
+
+	fieldset input.text {
+	    width: 220px !important;
+	}
+
+	fieldset label {
+	    margin-right: 15px;
+	}
+}
+
+@media screen and (max-width:580px){
+	fieldset p .entitle_medium {
+	    width: 100px;
+	}
+
+	fieldset label {
+	    margin-right: 0px;
+	}
+}
+
+@media screen and (max-width:500px){
+	fieldset input.text {
+	    width: 180px !important;
+	}
+
+	fieldset span {
+	    margin-right: 0;
+	}
+
+	fieldset label {
+		margin-right: 8px;
+	}
+
+	#client_type_premium{
+		margin-left: 0;
+	}
+
+	span.line {
+	    width: 102px !important;
+	}
+
+	#client_cost_user_month {
+		margin-left: 0;
+	}
+
+	#extra_users, #client_nbr_users {
+	    width: 34px !important;
+	}
+
+	input[type='checkbox'], input[type='radio'] {
+		margin-left: 0;
+	}
+
+	#periods{
+		margin-left: -30px;
+	}
+
+	fieldset label {
+		margin-right: 0;
+	}
+}
+
+
+
+@media screen and (max-width:360px){
+	fieldset {
+		width: 290px;
+	}
+
+	fieldset p .entitle_medium {
+	    width: 96px;
+	}
+
+	fieldset input.text {
+	    width: 146px !important;
+	}
+
+	#extra_users, #client_nbr_users {
+	    margin-right: 80px;
+	}
+
+	input.line.button {
+	    float: right;
+	    margin-left: 32px;
+	}
+
+	#periods {
+	    margin-left: -48px;
+	}
+}

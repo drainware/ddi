@@ -1,0 +1,129 @@
+
+#content_body{
+	margin:30px;
+}
+fieldset{
+	border:none;
+	border-radius:0px;
+	border-top:1px solid #C8402B;
+	box-shadow:none;
+	width:80%;
+	padding:0px;
+	margin-bottom:0px;
+}
+fieldset fieldset{
+	border:none;
+	width:100%;
+}
+fieldset.accordion{
+	width:100%;
+	border:0;
+}
+fieldset.accordion legend{
+	border:0 !important;
+}
+fieldset legend{
+	border:0;
+	font-size:20px;
+
+	color: #C8402B !important;
+}
+fieldset span{
+	vertical-align:middle !important;
+}
+fieldset p{
+	margin:15px 0px;
+}
+p>label{
+	font-weight:700;
+}
+.active ul{
+	border-top: 1px solid #ccc;
+}
+fieldset li:last-child{
+	margin-bottom:40px;
+}
+ul label{
+	font-weight:400;
+}
+fieldset input.text{
+	padding:5px !important;
+	width:100px !important;
+	margin-right:20px;
+}
+#endpoint_types li{
+	display:inline-block;
+	width:120px;
+}
+.accordion.active li{
+	float:left;
+	display:inline-block;
+	width:50%;
+	vertical-align:top;
+}
+.col:nth-child(3){
+ margin-bottom:130px;
+}
+.col:nth-child(5){
+ margin-bottom:80px;
+}
+
+.type_is>p:not(:first-child){
+	background:url("../images/triangle1.png") left no-repeat;
+} 
+.type_is  li{
+	display:inline-block;
+	float:left;
+	width:50%;
+}
+
+h2 p{
+	display:inline-block;
+	width:150px;
+}
+#chart1-wrapper{
+	width:80%;
+}
+
+
+
+
+@media screen and (max-width:1024px){
+    #content_body {
+        margin: -20px 0px 0px 0px;
+    }
+
+    fieldset {
+        width: 100%;
+    }
+    
+}
+
+
+@media screen and (max-width:580px){
+    fieldset input.text {
+        width: 376px !important;
+        margin-top: 10px;
+    }
+
+	fieldset select {
+	    width: 279px !important;
+	}
+}
+
+@media screen and (max-width:500px){
+	fieldset input.text {
+	    width: 286px !important;
+	}
+
+	fieldset select {
+	    width: 192px !important;
+	}
+}
+
+
+@media screen and (max-width:360px){
+	fieldset input.text {
+	    width: 248px !important;
+	}
+}

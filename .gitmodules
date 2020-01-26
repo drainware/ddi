@@ -1,0 +1,3 @@
+[submodule "scripts/analyzefile"]
+	path = scripts/analyzefile
+	url = https://github.com/drainware/analyzefile.git

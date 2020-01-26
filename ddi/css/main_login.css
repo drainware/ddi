@@ -1,0 +1,128 @@
+body{
+	background:url(../images/tabs.png);
+
+}
+#wrapper{
+	background:none !important;
+	border:none;
+	box-shadow:none;
+}
+#wrap{
+	background:none;
+	/* margin-top:100px;*/
+}
+
+#main_content{
+       margin-top:150px !important;
+}
+
+#login{
+	border:none;
+}
+#login_content{
+	background:none;
+
+}
+label{
+	color:white !important;
+	width:400px !important;
+}
+input.text{
+	float:right;
+	display:inline-block !important;
+	width:300px !important;
+}
+img.corner{
+	position:fixed;
+	right:0;
+	bottom:0;
+	z-index:-1;
+}
+p{
+	padding-bottom:20px !important;
+}
+p:first-child{
+	float:right;
+}
+a{
+	float:right;
+	color:rgb(200,200,200) !important;
+	padding-top:10px;
+}
+select{
+	margin-left:38px;
+	border-radius:3px;
+
+}
+a:hover{
+	color:rgb(200,20,20) !important;
+}
+input.submit{
+	float:right;
+	background:rgb(180,20,40) !important;
+}
+#login_content div{
+	float:left;
+}
+
+@media screen and (max-width:1024px){
+	html {
+    	background-color: transparent;
+	}
+
+	#main_content {
+    	background-color: transparent;
+    }
+}
+
+
+@media screen and (max-width:580px){
+	#main_content {
+    	margin-top: 10px !important;
+	}
+
+	.login#wrapper #main_content {
+	    margin-left: 0px;
+	}
+
+	#login {
+	    margin: 0;
+	    padding: 0;
+	}
+
+	img.corner {
+		top: -999px;
+	}
+
+	.prueba{
+		width: 170;
+		height: 105;
+	}
+}
+
+
+@media screen and (max-width:500px){
+	#login {
+ 		width: 100%;
+	}
+
+	input.text {
+	    width: 266px !important;
+	}
+
+	select {
+		margin-left: 0;
+	    margin-right: 100px;
+	}
+
+	#login_content form label {
+	    margin-right: 6px;
+	}
+
+}
+
+@media all and (max-width:380px){
+	#login_content select {
+	    width: 60px;
+	}
+}

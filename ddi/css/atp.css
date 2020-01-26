@@ -1,0 +1,54 @@
+
+#content_body{
+margin:30px;
+}
+
+fieldset{
+	border:none;
+	border-radius:0px;
+	border-top:1px solid #C8402B;
+	box-shadow:none;
+	width:80%;
+	padding:0px;
+	margin-bottom:20px;
+}
+fieldset>div{
+	padding-top:20px;
+}
+fieldset legend{
+	border:0;
+	font-size:20px;
+	margin-bottom:50px;
+}
+fieldset span{
+	margin-right:50px;
+	vertical-align:middle !important;
+}
+fieldset p{
+	margin:15px 0px;
+}
+fieldset input.text{
+	padding:5px !important;
+	width:300px !important;
+}
+input.button{
+	margin-left: 458px;
+}
+
+
+@media screen and (max-width:1024px){
+    #content_body {
+        margin: -20px 0px 0px 0px;
+    }
+
+    fieldset {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:380px){
+	fieldset {
+		width: 290px;
+	}
+}

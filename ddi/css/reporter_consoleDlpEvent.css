@@ -1,0 +1,135 @@
+h3{
+	font-size:25px;
+	font-weight:400;
+	color:rgb(200, 64, 43);
+	border-bottom:1px solid rgb(200, 64, 43);
+	margin-bottom:20px;
+}
+
+td{
+	font-size:1.1em !important;
+	color:rgb(50,50,50) !important;
+}
+
+ul{
+	margin:0px;
+	height: 32px;
+}
+
+strong{
+	color:rgb(200, 64, 43);
+}
+
+#hor-zebra td {
+    padding: 8px;
+}
+
+#hor-zebra .odd {
+    background: #F0F0F0; 
+}
+
+#main_content{
+	height:900px !important;
+}
+
+
+fieldset{
+	border:none;
+	border-radius:0px;
+	border-top:1px solid #C8402B;
+	box-shadow:none;
+	width:50%;
+	padding:0px;
+	margin-bottom:20px;
+}
+
+fieldset legend{
+	border:0;
+	font-size:20px;
+	margin-bottom:50px;
+}
+
+fieldset p{
+	margin:15px 0px;
+}
+
+#cboxLoadedContent .event-context{
+	border-bottom:1px solid black;
+}
+#colorbox fieldset{
+	width:90%;
+	margin-left:30px;
+}
+#colorbox legend{
+	text-align:center;
+}
+
+
+#quad li {
+  width:25%; 
+}
+
+#double li { 
+  width:50%;
+}
+
+ul{
+  width:auto;
+  overflow:hidden;
+}
+
+li{
+  display:inline-block;
+  width: 150px;
+}
+
+
+ul.double-impar{
+  background-color: #F0F0F0;
+}
+
+#double-impar li{
+  width:50%;
+}
+
+
+@media all and (max-width:1024px){
+	ul{
+		width: auto;
+	}
+}
+
+@media all and (max-width:580px){
+	#wrap{
+		margin-bottom: 0;
+	}
+}
+
+
+@media all and (max-width:500px){
+	h3{
+		font-size: 24px;
+	}
+
+	#hor-zebra td{
+		padding: 0;
+		padding-left: 7px;
+	}
+
+}
+
+
+
+@media all and (max-width:380px){
+	h3{
+		font-size: 20px;
+	}
+
+	ul {
+		width: 285px;
+	}
+
+	li{
+		width: 140px;
+	}
+}

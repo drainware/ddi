@@ -1,0 +1,102 @@
+
+#content_body{
+	margin:30px;
+}
+#login_content{
+	padding:0px;
+}
+#remote_search{
+	padding:8px 12px;
+	margin-left:10px;
+}
+fieldset{
+	border:none;
+	border-radius:0px;
+	border-top:1px solid #C8402B;
+	box-shadow:none;
+	width:80%;
+	padding:0px;
+	margin-bottom:20px;
+}
+fieldset>div{
+	padding-top:30px;
+}
+fieldset legend{
+	border:0;
+	font-size:20px;
+	margin-bottom:50px;
+}
+fieldset span{
+	margin-right:50px;
+	vertical-align:middle !important;
+}
+fieldset p{
+	margin:15px 0px;
+}
+fieldset input.text{
+	padding:5px !important;
+	width:340px !important;
+}
+
+
+
+@media screen and (max-width:1024px){
+    #content_body {
+        margin: -20px 0px 0px 0px;
+    }
+
+    fieldset {
+        width: 100%;
+    }
+
+    .help_box {
+    	width: 100%;
+    }
+
+    fieldset input.text {
+		width: 330px !important;
+	}
+	
+	#search_list_file{
+		width: 342px !important;
+	}
+}
+
+
+@media screen and (max-width:580px){
+    fieldset span {
+	    margin-right: 0px;
+	}
+
+	fieldset input.text {
+	    width: 260px !important;
+	}
+
+	#search_list_file{
+		width: 273px !important;
+	}
+}
+
+
+
+@media screen and (max-width:580px){
+	fieldset > div {
+    	padding-top: 0;
+	}
+
+	fieldset p .entitle_short {
+		width: 153px;
+	}
+}
+
+@media screen and (max-width:380px){
+    fieldset p .entitle_short {
+        width: 100%;
+    }
+
+	fieldset {
+		width: 290px;
+	}
+}
+
+

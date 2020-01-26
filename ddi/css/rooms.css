@@ -1,0 +1,65 @@
+* {
+  margin:0;
+  padding:0;
+  font-family:Arial;
+}
+
+#wrapper-rooms {
+     width: 700px;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+#rooms,#form-rooms {
+     background:#EAECEE;
+}
+
+.room {
+    padding:10px;
+    background: #efefef;
+    border: 1px solid grey;
+}
+.room form input {
+width:80px;
+}
+
+.room.blocked,.room.blocked a {
+  background: #A80A0B;
+  color:white;
+}
+
+.room .info {
+  
+  
+}
+
+.room .info .room-name{
+  font-size:16px;
+  font-weight:bold;
+  margin-bottom:10px;  
+}
+
+.room .info .room-desc{
+  
+  
+}
+
+.room .controls{
+  margin:5px;
+}
+
+#form-rooms form { 
+  padding:10px;
+  margin:10px;  
+}
+
+
+#form-rooms .element-form {
+  margin:15px;
+  padding:10px;
+}
+
+#form-rooms .element-form #name,#form-rooms .element-form #desc {
+  width:100%;
+}
+

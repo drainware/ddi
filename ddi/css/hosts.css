@@ -1,0 +1,92 @@
+* {
+  margin:0;
+  padding:0;
+  font-family:Arial;
+}
+
+
+#wrapper-hosts {
+     width: 740px;
+     margin-left: auto;
+     margin-right: auto;
+     line-height:40px;
+}
+
+.host-label {
+  color:#A80A0B;
+  font-size:17px;
+}
+
+.host-value {
+  font-size:17px;
+  background:#dedede;
+  padding:10px;
+  margin-left:5px;
+  margin-right:5px;
+  font-weight:bold;
+}
+
+#wrapper-hosts button, .assistant-wrapper.first button{
+    margin-top:20px;
+    margin-left:10px;
+    font-size:16px;
+    padding:4px;
+}
+
+#hosts,#form-hosts {
+     background:#EAECEE;
+}
+
+.host {
+    padding:10px;
+    background: #efefef;
+    border: 1px solid grey;
+}
+
+.host.blocked,.host.blocked a {
+  background: #A80A0B;
+  color:white;
+}
+
+.host .info {
+  
+  
+}
+
+.host .info .host-name{
+  font-size:16px;
+  font-weight:bold;
+  margin-bottom:10px; 
+  text-align:center; 
+}
+
+.host .info .host-desc{
+ 
+  
+}
+
+.host .controls{
+  margin:5px;
+  height:65px;
+  text-align:right;
+}
+
+#form-hosts form { 
+  padding:10px;
+  margin:10px;  
+}
+
+
+#form-hosts .element-form {
+  margin:15px;
+  padding:10px;
+}
+
+#form-hosts .element-form #name,#form-hosts .element-form #desc {
+  width:100%;
+}
+
+.new-host {
+
+}
+

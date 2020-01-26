@@ -1,0 +1,55 @@
+#sidenav{
+	min-height:500px !important;
+}
+#main_content{
+	min-height:500px !important;
+}
+
+.period-filter{
+    display: inline-block;
+}
+
+.extra-filter{
+    float: right;
+}
+
+.time-bar select, 
+.time-bar label {
+    display: none;
+}
+
+.time-bar{
+    margin: 25px 0px 5px 45px;
+    width: 90%;
+    height: 40px;
+}
+
+@media screen and (max-width:500px){
+	#dlp_bubble_activity{
+		width: 300px;
+	}
+
+	.period-filter {
+	    float: left;
+	}
+
+	.extra-filter {
+	    float: none;
+	    margin-left: 161px;
+	}
+
+	#dlp_msg_group_policy{
+	    padding: 0 !important;
+	    line-height: 30px !important;
+	    font-size: 15px !important;
+	    text-align: left !important;
+	    padding-top: 0 !important;
+	}
+
+	.extra-filter {
+	    float: none;
+	    margin-top: 30px;
+	    margin-left: 0;
+	}
+}
+

@@ -1,0 +1,40 @@
+#!/bin/bash
+#
+
+
+# Carry out specific functions when asked to by the system
+case "$1" in
+  start)
+    echo -n "Starting ambulance.. "
+    start-stop-daemon --background  --pidfile /opt/drainware/var/run/ambulance.pid  --start --exec /opt/drainware/scripts/squid/ambulance.py -- --logfile /opt/drainware/var/log/squid/cache.log --pidfile /opt/drainware/var/run/ambulance.pid 
+    echo "OK"
+    ;;
+  stop)
+    if [ -f /opt/drainware/var/run/ambulance.pid ] 
+    then
+      echo -n "Stopping ambulance."
+      start-stop-daemon --pidfile /opt/drainware/var/run/ambulance.pid  --stop
+      echo -n "."
+      rm /opt/drainware/var/run/ambulance.pid
+      echo -n ". "
+      echo "OK"
+    else
+      echo "ambulance is not running."
+    fi
+    ;;
+  status)
+    ls /proc/$(cat /opt/drainware/var/run/ambulance.pid 2> /dev/null)/exe > /dev/null 2> /dev/null
+    if [ $? -eq 0  ]; then
+      echo "ambulance is running"
+    else
+      echo "ambulance is stopped"
+    fi
+    ;;
+  *)
+    echo "Usage: /etc/init.d/ambulance {start|stop|status}"
+    exit 1
+    ;;
+esac
+
+exit 0
+

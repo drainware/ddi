@@ -1,0 +1,161 @@
+
+#content_body{
+margin:30px;
+}
+
+fieldset{
+	border:none;
+	border-radius:0px;
+	border-top:1px solid #C8402B;
+	box-shadow:none;
+	width:80%;
+	padding:0px;
+	margin-bottom:20px;
+}
+
+fieldset legend{
+	border:0;
+	font-size:20px;
+	margin-bottom:50px;
+}
+fieldset span{
+	margin-right:50px;
+	vertical-align:middle !important;
+}
+fieldset label{
+    margin-left: 5px;
+	margin-right:20px;
+        display: inline-block;
+        width: 70px;
+}
+fieldset p{
+	margin:15px 0px;
+}
+
+fieldset li{
+    display:inline-block;
+    width:190px;
+}
+
+fieldset input.text{
+	padding:5px !important;
+	width:300px !important;
+}
+.line p{
+	display:inline-block !important;
+}
+span.line{
+	width:150px !important;
+	margin:0px;
+}
+
+p input.button{
+        float: right;
+	margin: 0px 55px 0px 0px;
+}
+
+input.button{
+	margin: 0px 0px 0px 0px;
+}
+
+input.button.red{
+	float: right;
+	margin: 0px 155px 0px 0px;
+}
+
+#cboxLoadedContent{
+    border-bottom:1px solid black;
+}
+#colorbox fieldset{
+    width:400px;
+    margin-left:30px;
+    margin-right:30px;
+}
+
+#colorbox input.button{
+    margin: 25px 0px 0px 0px;
+    background:#C8402B;
+    color:rgb(240,240,240);
+}
+#cboxWrapper{
+    width:500px !important;
+}
+
+
+
+@media screen and (max-width:1024px){
+    #content_body {
+       margin: -20px 0px 0px 0px;
+    }
+
+    fieldset {
+    	width: 100%;
+    }
+
+    input.button.red {
+    	margin: 0;
+    }
+}
+
+
+
+
+@media screen and (max-width:800px){
+	fieldset p .entitle_medium {
+	    width: 70px;
+	}
+
+	fieldset span {
+		margin-right: 100px;
+	}
+}
+
+
+@media screen and (max-width:580px){
+	fieldset p .entitle_medium {
+	    width: 30px;
+	}
+
+    fieldset label {
+	    margin-left: 5px;
+	    margin-right: 0px;
+	    display: inline;
+	}
+}
+
+
+@media screen and (max-width:500px){
+	fieldset p .entitle_medium {
+	    width: 77px;
+	}
+
+    fieldset label {
+	    margin-right: 14px;
+	}
+
+	fieldset span {
+    	margin-right: 0;
+	}
+
+	#browser_permission{
+		float: right;
+		margin-left: 100px;
+	}
+
+	input.red.button {
+	    margin-top: 10px;
+	}
+
+
+}
+
+
+@media screen and (max-width:380px){
+	fieldset {
+		width: 300px;
+	}	
+	
+	fieldset label {
+		margin-right: 8px;
+	}
+}

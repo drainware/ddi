@@ -1,0 +1,150 @@
+/*
+Theme Name: BigBusiness
+Theme URI: http://highthemes.com
+Description: Professional Business/Portfolio Theme For Wordpress
+Version: 1.2
+Author: HighThemes
+Author URI: http://highthemes.com
+Tags: multicolor, fixed with, multi-column, widgets, admin options
+*/
+
+/* Reset HTML Elements *//* ----------------------------------------- */
+*, html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, label, fieldset, input, p, blockquote, th, td {
+	margin:0;
+	padding:0
+
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0
+}
+fieldset, img { border:0 }
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style:normal;
+	font-weight:normal
+}
+ol, ul, li { list-style:none }
+caption, th { text-align:left }
+q:before, q:after { content:'' }
+* { 
+  letter-spacing: 1px;
+  color:#838282;
+  outline: none; 
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+strong { font-weight: bold }
+em { font-style: italic }
+a img { border:none }
+/* General Styles *//* ----------------------------------------- */
+body {
+  background: white;
+	color:#494949;
+	font-family:Arial, Verdana, Helvetica, sans-serif;
+	font-size:.75em;
+}
+a, a:visited {
+	color: grey;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+	color:#1b374f;
+}
+p {
+	line-height: 1.5em;
+	padding: 0 0 1.3em;
+}
+
+/* Header *//* ----------------------------------------- */
+#header-wrapper { background:url(images/header_wrapper.jpg) repeat-x; border-bottom: 5px solid #3c3c3c; }
+#header {
+	margin:0 auto;
+	width:960px;
+	height:104px;
+	position:relative;
+	z-index:200;
+}
+#logo {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+.call-to-action2  {
+	background:url(images/calltoaction2_left.png) no-repeat top left;
+	padding-left:15px;
+	height:46px;
+	margin-left:2px;
+	margin-top: 10px;
+	float:right;
+}
+
+#page {
+  border-top: 10px solid #5c5c5c;
+  border-bottom:10px solid #5c5c5c;  
+}
+
+#content {
+  margin: 0 auto;  
+  width:1100px;
+  margin-top: 10px;
+  color: #c02942;
+
+}
+
+#content .left {
+  float:left;
+  width:50%;
+}
+
+#content .title {
+   font-weight: 100;
+   letter-spacing: -5px;
+}
+
+.section {
+
+  font-family:Helvetica;
+
+}
+.title-section {
+   color: #c02942;
+   font-size:24px;
+   margin-bottom:10px;
+   margin-top:10px;
+   letter-spacing: 0;
+}
+
+.title .first-line {
+  font-size:120px;
+  font-weight:100;
+  text-align: center;
+  color: #c02942;
+
+
+}
+
+.title .second-line {
+    font-size: 90px;
+    font-weight: 200;
+    text-align: center;
+    color: #c02942;
+}
+
+#content {
+  height: 625px;
+}
+
+#content .right {
+  float:right;
+  width:50%;
+}
+
+#content #info {
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 35px;
+    margin-top: 30px;
+    margin-bottom:10px;
+    letter-spacing: 0;
+}

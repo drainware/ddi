@@ -1,0 +1,14 @@
+
+Funcionamiento de lmanager
+
+lmanager add $group_id
+
+
+Reiniciar y cargar cambios
+
+/opt/secure/webfilter/bin/dansguardian -g
+
+
+fmanager off/on
+
+

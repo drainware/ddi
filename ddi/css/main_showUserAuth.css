@@ -1,0 +1,150 @@
+
+#content_body{
+margin:30px;
+}
+
+fieldset{
+	border:none;
+	border-radius:0px;
+	border-top:1px solid #C8402B;
+	box-shadow:none;
+	width:80%;
+	padding:0px;
+	margin-bottom:20px;
+}
+
+fieldset legend{
+	border:0;
+	font-size:20px;
+	margin-bottom:50px;
+}
+fieldset span{
+	margin-right:50px;
+	vertical-align:middle !important;
+}
+fieldset label{
+	margin-right:20px;
+}
+fieldset p{
+	margin:15px 0px;
+}
+
+
+fieldset input.text{
+	padding:5px !important;
+	width:300px !important;
+}
+.line p{
+	display:inline-block !important;
+}
+span.line{
+	width:150px !important;
+	margin:0px;
+}
+
+p input.button{
+        float: right;
+	margin: 0px 55px 0px 0px;
+}
+
+input.button{
+	float: right;
+	margin: 0px 208px 0px 0px;
+}
+
+#cboxLoadedContent{
+    border-bottom:1px solid black;
+}
+#colorbox fieldset{
+    width:400px;
+    margin-left:30px;
+    margin-right:30px;
+}
+
+#colorbox input.button{
+    margin: 25px 0px 0px 0px;
+    background:#C8402B;
+    color:rgb(240,240,240);
+}
+#cboxWrapper{
+    width:500px !important;
+}
+
+
+
+
+@media screen and (max-width:1024px){
+    #content_body {
+        margin: -20px 0px 0px 0px;
+    }
+
+    p input.button {
+	    margin: 30px 10px 0px 0px;
+	}
+
+	input.button {
+	    margin: 0px 120px 0px 0px;
+	}
+}
+
+
+@media screen and (max-width:990px){
+	fieldset{
+		width: 100%;
+	}
+
+	input.button {
+	    margin: 0px 10px 0px 0px;
+	}
+
+	fieldset input.text {
+		width: 255px !important;
+	}
+}
+
+
+@media screen and (max-width:704px){
+
+	fieldset p .entitle_medium {
+	    width: 80px;
+	}
+
+	fieldset span {
+	   margin-right: 0;
+	}
+
+	fieldset input.text {
+	    padding: 5px !important;
+	    width: 290px !important;
+	}
+
+
+	input.button {
+	    margin: 0;
+	}
+
+	p input.button {
+	    margin: 30px 0px 0px 0px;
+	}
+}
+
+
+
+@media screen and (max-width:500px){
+	fieldset input.text {
+	    width: 200px !important;
+	}
+}
+
+
+@media screen and (max-width:380px){
+	fieldset {
+        width: 290px;
+    }
+	
+	fieldset input.text {
+		width: 180px !important;
+	}
+}
+
+

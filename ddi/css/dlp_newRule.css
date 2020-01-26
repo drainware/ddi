@@ -1,0 +1,91 @@
+
+#content_body{
+    margin:30px;
+}
+fieldset>div{
+    padding-top:20px;
+}
+fieldset{
+    border:none;
+    border-radius:0px;
+    border-top:1px solid #C8402B;
+    box-shadow:none;
+    width:80%;
+    padding:0px;
+    margin-bottom:20px;
+}
+
+fieldset legend{
+    border:0;
+    font-size:20px;
+    margin-bottom:50px;
+}
+fieldset span{
+    vertical-align:middle !important;
+}
+fieldset p{
+    margin:15px 0px;
+}
+fieldset input.text{
+    padding:5px !important;
+    width:300px !important;
+}
+
+fieldset textarea{
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+}
+
+
+
+
+@media screen and (max-width:1024px){
+    #content_body {
+        margin: -20px 0px 0px 0px;
+    }
+
+    fieldset {
+        width: 100%;
+    }
+
+    #margen-reglas{
+        padding-left: 0 !important;
+    }
+}
+
+@media screen and (max-width:580px){
+    fieldset p .entitle_medium {
+        width: 86px;
+    }
+
+    fieldset input.text {
+        width: 284px !important;
+    }
+
+    fieldset textarea {
+        width: 100%;
+    }
+
+    .fbutton, button.button.red, input.button.red, a.button.red {
+        margin-bottom: 0;
+        float: right;
+    }
+
+    
+}
+
+@media screen and (max-width:500px){
+    fieldset input.text {
+        width: 195px !important;
+    }
+}
+
+@media screen and (max-width:360px){
+    fieldset input.text {
+        width: 155px !important;
+    }
+
+    .fbutton, button.button.red, input.button.red, a.button.red {
+        float: left;
+    }
+}

@@ -1,0 +1,112 @@
+
+#content_body{
+    margin:30px;
+}
+
+fieldset{
+    border:none;
+    border-radius:0px;
+    border-top:1px solid #C8402B;
+    box-shadow:none;
+    width:80%;
+    padding:0px;
+    margin:90px 0px;
+}
+h1{
+    color:#C8402B;
+}
+fieldset legend{
+    border:0;
+    font-size:20px;
+    margin-bottom:50px;
+}
+fieldset span{
+    vertical-align:middle !important;
+}
+fieldset p{
+    margin:15px 0px;
+}
+
+fieldset input.text{
+    padding: 5px !important;
+    width: 300px !important;
+}
+input.button{
+    margin-left: 30px;
+}
+.big.button{
+    background:#C8402B;
+    color: rgb(240,240,240);
+    font-size:1.2em;
+    padding:10px;
+}
+
+#email_list{
+        padding: 5px !important;
+    width: 600px !important;
+    height: 100px !important;
+}
+
+.multipleInput-container {
+    border:1px #ccc solid;
+    padding:1px;
+    padding-bottom:0;
+    cursor:text;
+    font: 99% sans-serif;
+    display: inline-block;
+    width:600px !important;
+    height: auto;
+    min-height: 100px;
+}
+
+.multipleInput-container input {
+    font: 99% sans-serif;
+    background-color:#fff;
+    clear:both;
+    border:0;
+    margin-bottom:1px;
+    outline:none;
+    width: 50px;
+}
+
+.multipleInput-container ul {
+    list-style-type:none;
+}
+
+li.multipleInput-email {
+    float:left;
+    margin-right:2px;
+    margin-bottom:1px;
+    border:1px #BBD8FB solid;
+    padding:2px;
+    background:#F3F7FD;
+}
+
+li.multipleInput-email-error {
+    float:left;
+    margin-right:2px;
+    margin-bottom:1px;
+    border:1px #FB8E83 solid;
+    padding:2px;
+    background:#FDF3F4;
+}
+
+.multipleInput-close {
+    width:16px;
+    height:16px;
+    background-image: url('smoothness/images/ui-icons_2e83ff_256x240.png');
+    background-position: -80px -128px;
+    display:block;
+    float:right;
+    margin:0 3px;
+}
+
+.multipleInput-close-error {
+    width:16px;
+    height:16px;
+    background-image: url('smoothness/images/ui-icons_cd0a0a_256x240.png');
+    background-position: -80px -128px;
+    display:block;
+    float:right;
+    margin:0 3px;
+}

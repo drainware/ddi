@@ -1,0 +1,15 @@
+h2{
+	color:#C8402B;
+	font-size:25px;
+	font-weight:400px;
+}
+hr{
+	border-top:1px solid #C8402B;
+}
+
+
+@media screen and (max-width:380px){
+    #content_body {
+        width: 290px;
+    }
+}

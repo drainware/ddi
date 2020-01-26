@@ -1,0 +1,1663 @@
+/*==============================
+	-- Resets & clears -- 
+==============================*/
+*{margin:0;padding:0;border:0;}
+.clear{clear:both;}
+.cf:before,
+.cf:after {content: " ";display: table;}
+.cf:after{clear: both;}
+ul{list-style-type:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{border:0;}
+
+
+/*==============================
+		-- FONTS -- 
+==============================*/
+
+ /* EOT file for IE */
+@font-face {
+font-family: 'Muli-Light';
+src: url("fonts/Muli-Light.eot");}
+ /* TTF file for CSS3 browsers */
+@font-face {
+font-family: 'Muli-Light';
+src: url("fonts/Muli-Light.ttf");}
+
+
+/*==============================
+		-- GENERAL -- 
+==============================*/
+html{
+color:#58595b;
+background:#fbfcfc;
+font:18px "Muli-Light",Helvetica,Arial,sans-serif;}
+
+.container{
+position:relative;
+width:1050px;
+margin:auto;
+}
+
+.container.tab{
+	height:440px;
+	border-top: 1px solid #fff;
+	padding-top:50px;
+}
+
+.containerteam.tab{
+        height:440px;
+        border-top: 1px solid #fff;
+        padding-top:50px;
+	position:relative;
+	width:1050px;
+	margin:auto;
+}
+
+
+p{
+line-height:120%}
+
+input{
+border:2px solid #cac9c9;
+background:#fff;
+/*text-align:left;*/
+color:#58595b;
+font:bold 12px "Muli-Light",Helvetica,Arial,sans-serif;}
+
+button{
+color:#fff;
+text-transform:uppercase;
+padding:0 30px;
+border:1px solid #686868;
+border-top:1px solid #9f9f9f;
+border-bottom:1px solid #3a3a3a;
+background-color:#434343;
+background:linear-gradient(to bottom, #434343, #1d1d1d);
+font:bold 12px/23px "Muli-Light",Helvetica,Arial,sans-serif;}
+
+input::-webkit-input-placeholder { /* WebKit browsers */
+color:#58595b;opacity:1;}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+color:#58595b;opacity:1;}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+color:#58595b;opacity:1;}
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+color:#58595b;opacity:1;}
+
+
+/*---------------------------------------------------------------------------------
+
+
+/*==============================
+		-- H1-H6 --
+==============================*/
+
+h2{
+font-size:18px;
+color:#fff;
+padding-left:10px;
+margin:20px 0 0 0;
+line-height:34px;
+position:relative;
+background:#424142;}
+
+
+
+/*==============================
+		-- CONTENT --
+==============================*/
+
+/* Top panel */
+.panel{
+position:fixed;
+width:100%;
+height:65px;
+border-bottom:1px solid rgb(100,100,100);
+background:rgb(50,50,50);
+background: -webkit-gradient(linear, left top, left bottom, from(rgb(80,80,80)), to(rgb(20,20,20)));
+background: -moz-linear-gradient(top,  rgba(180,20,20,1),  rgba(120,0,0,1));
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#a50b19', endColorstr='rgb(100,0,0)');
+z-index:1;
+}
+.panel p{
+text-align:right;
+font:bold 12px/35px "Muli-Light",Helvetica,Arial,sans-serif;
+}
+.panel input {
+margin:0 0 0 9px;}
+.panel a{
+color:#fff;
+}
+.panel h1{
+	float:left;
+	top:-5px;
+	display:inline-block;
+}
+.panel h1 a{
+	display:block;
+	text-indent:-9999px;
+	width:350px;
+	height:50px;
+	background:url(img/cloud_logo2.png) no-repeat;
+	background-size:120px,50px;
+
+}
+.panel ul{
+	width:1050px;
+	padding-top:5px;
+	margin:auto;
+}
+.panel li{
+	display:inline-block;
+	float:left;
+	width:105px;
+	margin-top:20px;
+	text-align:center;
+	border-left:1px solid #6d6c6c;
+	font-size:16px;
+}
+.panel li:nth-child(2){
+	border:none;
+}
+.panel li.sign-up{
+	border:1px solid rgb(150,150,150);
+	border-right:none;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	box-shadow:0px 2px 5px black;
+	margin-left:20px;
+}
+.panel li a:hover{
+	text-shadow:0px 0px 2;
+}
+.panel li.login{
+	border:1px solid rgb(150,150,150);
+	border-left:none;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	box-shadow:2px 2px 5px black;
+}
+
+
+
+.tabs:nth-child(even) .separador{
+	background:none !Important;
+	color:rgb(50,50,50) !important;
+	
+}
+.tabs:nth-child(even) .separador1{
+	background:none !Important;
+	color:rgb(50,50,50) !important;
+	
+}
+
+.tabs:nth-child(even) .container.tab{
+	border-top:1px solid rgb(50,50,50);
+	
+}
+/* Tabs */
+.tabs{
+color:#fff;
+overflow:hidden;
+background:url(img/tabs.png);
+padding-top:65px;
+}
+
+.tabs:nth-child(even){
+	background:url(img/tabs2.png);
+	color:rgb(100,100,100) !important;
+}
+
+.tabs1{
+color:#fff;
+overflow:hidden;
+background:url(img/tabs.png);
+padding-top:65px;
+}
+
+.tabs1:nth-child(even) .separador{
+	background:none !Important;
+	color:rgb(50,50,50) !important;
+	
+}
+.tabs1:nth-child(even) .separador1{
+	background:none !Important;
+	color:rgb(50,50,50) !important;
+	
+}
+
+.tabs1:nth-child(even) .container.tab{
+	border-top:1px solid rgb(50,50,50);
+	
+}
+
+.tabs1:nth-child(even){
+	background:url(img/tabs2.png);
+	color:rgb(100,100,100) !important;
+}
+.nav{
+overflow:hidden;
+box-shadow:-10px 0 10px 5px #111;
+background:url(img/tabs-menu.png)}
+.nav li{
+float:left;
+width:20%;
+text-align:center;
+padding-top:12px;
+line-height:25px;}
+.nav li a{
+outline:0;
+display:block;
+color:#414042;}
+.nav li.ui-tabs-active{
+background:url(img/tabs-active.png) repeat-x top left}
+
+.nav li a:hover{
+	color:rgba(200,30,30,1);
+}
+
+.tab p{
+padding:10px 0;}
+.tab img{
+margin:auto;
+display:block;
+}
+
+.tab .col{
+float:left;
+width:55%;
+padding:0 2%;
+/*border-right:1px solid rgba(255,255,255,.5);*/
+}
+.tab:nth-child(odd) .col{
+	border-right:1px solid rgb(100,100,100);
+}
+.tab .col:last-child{
+border:0;}
+.tab .col + .col{
+width:36%;
+float:right;
+padding:100px 2% 0 2%}
+
+.separador{
+	width:1050px;
+	margin:auto;
+	background:none !Important;
+	color:#fff !important;
+	text-align:center;
+}
+
+.separador1{
+	width:1050px;
+	margin:auto;
+	background:none !Important;
+	color:#fff !important;
+	text-align:center;
+}
+
+#our-work>div{
+	display:inline-block;
+	vertical-align:top;
+}
+#our-work p{
+	display:inline-block;
+	width:250px;
+
+	padding:20px;
+}
+#team ul{
+	display:inline-block;
+	margin:40px 73px;
+}
+#team img{
+	box-shadow: 10px 10px 15px black;
+	margin-bottom:20px;
+}
+#team li{
+	text-align:center;
+}
+/* Footer */
+.footer{
+clear:both;
+overflow:hidden;
+background:rgb(50,50,50);
+
+}
+.footer p{
+float:left;
+padding:0 15px;
+font-size:10px;
+line-height:55px;
+}
+.footer p img{
+vertical-align:middle;}
+.footer p:last-child{
+float:right;}
+
+.footer .container>div{
+	display:block;
+	width:1050px;
+	height:220px;
+	margin:auto;
+}
+.footer ul{
+	float:left;
+	display:inline-block;
+	width:17%;
+	margin:4%;
+}
+.footer li{
+	margin-bottom: 10px;
+}
+.footer a{
+	font-size:16px;
+	color:rgb(150,150,150);
+}	
+.footer h3{
+	border-bottom:1px solid rgb(100,100,100);
+}
+
+
+a{
+color:#751071;
+text-decoration:none;
+}
+#pay_tweet:hover{
+	background: linear-gradient(to bottom, rgba(200,40,40,1),rgba(200,40,40,1));
+	position: relative;
+	top: 1px;
+}
+
+
+@media screen and (max-width:1200px){
+
+	.panel ul{
+		width: auto;
+	}
+
+	.panel h1 a {
+		margin-left: 15%;
+		width: 230px;
+	}
+
+	.panel li.sign-up{
+		margin-left: 2%;
+	}
+
+	
+
+	.postintro .container {
+		width: auto;
+	}
+
+
+	.container{
+		width: auto;
+	}
+
+	.separador{
+  		margin-top: -35px;
+  		width: auto;
+  	}
+
+	.separador1{
+		width: auto;
+		margin-top: 35px;
+	}
+
+
+	iframe{
+  		margin-left: 17px;
+  	}
+
+	.intro .container{
+		background-image: none !important;
+	}
+
+  	.intro .container div {
+  		float: none;
+		width: auto;
+  	}
+
+  	.postintro ul {
+  		float: left;
+  		width: 50%;
+  	}
+
+  	#team ul{
+  		margin: 40px 63px;
+  	}
+
+  	.tab p{
+  		padding: 10px 15px;
+  	}
+
+  	.footer ul{
+  		margin-left: 2%;
+  	}
+}
+
+
+
+@media screen and (max-width:1080px){
+
+	.panel h1 a{
+		width: 215px;
+	}
+
+	.intro{
+		background-image: none !important;
+		background-color: #cc0318;
+	}
+
+	/*#botoncitos{
+		margin-top: 100px;
+	}*/
+
+	#forensics #globo{
+		margin-left: -22px;
+		width: 450px;
+	}
+
+	.tab .col + .col{
+		float-right: none;
+		margin-left: 1%;
+	}
+
+	/*.tab .col + .col{
+		padding-top: 0;
+		width: auto;
+	}
+
+	.tab .col{
+		width: auto;
+	}
+
+	#forensics #globo{
+		margin-left: 18%;
+	}
+
+
+	#sandbox ol{
+  		float: none;
+  		width: 100%;
+  	}
+
+  	#sandbox img{
+  		margin-left: 20%;
+  	}
+
+	#sandbox p.box{
+  		float: none;
+  		width: 100%;
+  		font-size: 18px;
+  		padding-left: 0;
+  	}
+
+  	#sandbox input + img{
+  		margin-left: -9px;
+  	}*/
+}
+
+
+
+@media screen and (max-width:1046px){
+	.panel h1 a{
+		width: 200px;
+	}
+}
+
+@media screen and (max-width:1013px){
+	.panel h1 a{
+		width: 180px;
+	}
+}
+
+
+@media screen and (max-width:992px){
+	.panel h1 a{
+		width: 260px;
+	}
+
+	.panel{
+		height: 110px;
+	}
+
+
+	.panel li.sign-up{
+		margin-left: -200px;
+		margin-top: 70px;
+	}
+
+	.panel li.login{
+		margin-left: -94px;
+		margin-top: 70px;
+	}
+}
+
+
+
+
+@media screen and (max-width:970px){
+	
+	.panel h1 a {
+		margin-left: 30px;
+		width: 170px;
+	}
+
+	.panel li.sign-up{
+		margin-top: 65px;
+		margin-left: -236px;
+	}
+
+	.panel li.login{
+		margin-top: 65px;
+		margin-left: -130px;
+	}
+	.intro .container{
+  		margin-top: 110px;
+  	}
+
+
+  	.container.tab{
+  		padding-top: 20px;
+  		height: 550px;
+  	}
+
+  	#our-work > div{
+  		width: 100%;
+  	}
+
+  	#our-work p{
+  		width: 95%;
+  	}
+
+
+  	iframe{
+  		margin-left: 125px;
+  		text-align: center;
+  		width: 500px;
+  		height: 300px;
+  	}
+
+  	.tab p{
+  		margin-left: 5px;
+  		margin-right: 1%;
+  	}
+
+  	.tab img{
+  		margin-top: -30px;
+  	}
+
+  	.tabs1{
+		height: 340px;
+	}
+
+	.separador1{
+		width: auto;
+		margin-top: 65px;
+	}
+
+  	#ejemplos img{
+  		margin-left: -20%;
+  	}
+
+  	#sandbox{
+  		/*margin-bottom: 0;*/
+  	}
+
+  	#sandbox img{
+  		width: 200px;
+  	}
+
+  	#sandbox img+div{
+  		width: 120px;
+  		margin-top: 43px;
+  	}
+
+
+  	#sandbox input + img{
+  		width: 100px;
+  	}
+
+  	#sandbox p.box{
+  		width: 42%;
+  		padding-left: 5px;
+  		background-image: none !important;
+  	}
+
+  	#sandbox ol{
+  		width: 200px;
+  	}
+
+  	#data{
+  		background: url('img/dlp_opt2.png') no-repeat;
+  		height: 400px;
+  		margin-bottom: 0;
+  	}
+
+  	#data .btn1{
+  		left: 70px;
+  		top: 20px;
+  	}
+
+  	#data .btn2{
+  		left: 355px;
+  		top: 102px;
+  	}
+
+  	#data .btn3{
+  		left: 638px;
+  		top: 20px;
+  	}
+
+
+  	#data .actividad1{
+  		left: 55px;
+  		top: 65px;
+  	}
+
+  	#data .actividad2{
+  		left: 55px;
+  		top: 162px;
+  	}
+
+
+  	#data .actividad3{
+  		left: 150px;
+  		top: 243px;
+  	}
+
+  	#data .accion1{
+  		left: 293px;
+  		top: 68px;
+  	}
+
+  	#data .accion2{
+  		left: 355px;
+  		top: 68px;
+  	}
+
+  	#data .accion3{
+  		left: 412px;
+  		top: 68px;
+  	}
+
+  	#data .politica1{
+  		left: 615px;
+  		top: 75px;
+  	}
+
+  	#data p.politica1{
+  		left: 605px;
+  		top: 88px;
+  		width: 127px;
+  		font-size: 13.5px;
+  	}
+
+  	#data .politica2{
+  		left: 560px;
+  		top: 230px;
+  	}
+
+  	#data p.politica2{
+  		left: 560px;
+  		top: 250px;
+  		width: 200px;
+  	}
+
+  	#data .politica3{
+  		left: 560px;
+  		top: 230px;
+  	}
+
+
+  	#sandbox img{
+  		margin-left: 10px;
+  		width: 200px;
+  	}
+
+  	.footer ul{
+  		width: 30.5% !important;
+  	}
+}
+
+/*
+@media screen and (max-width:960px){
+	.panel h1 a {
+		margin-left: 30px;
+		width: 170px;
+	}
+	.panel li.sign-up{
+		margin-left: -35.8%;
+		margin-top: 9%;
+	}
+
+	.panel li.login{
+		margin-left: -20.8%;
+		margin-top: 9%;
+	}
+}*/
+
+
+
+@media screen and (max-width:704px){
+
+	.panel {
+		height: 110px;
+		position: relative;
+	}
+
+	.panel li{
+		/*width: 100px;*/
+		font-size: 18px;
+	}
+
+
+
+	.panel h1{
+		/*float:none;*/
+		top:-5px;
+		display:inline-block;
+	}
+
+
+	.panel h1 a {
+		margin-left: 30px;
+		width: 170px;
+		margin-top: 5px;
+	}
+
+
+	.panel li.sign-up {
+		margin-top: 0;
+		margin-left: 0;
+
+	}
+
+
+
+	.panel li.login {
+		margin-top: 0;
+		margin-left: 0;
+		/*margin-right: 2%;*/
+	}
+
+
+	.ribbon-wrapper{
+		display: none;
+	}
+
+	.postintro .container {
+		width: auto;
+	}
+
+	.postintro ul{
+  		float: none;
+  		width: 100%;
+  	}
+
+  	.postintro ul li{
+  		padding: 0px 0 30px 125px;
+  	}
+
+
+
+  	.postintro ul + ul li {
+  		padding: 13px 0 30px 142px;
+  	}
+	
+    /*.ribbon-wrapper {
+  		display: none;
+  	}*/
+
+  	.intro .container div {
+  		float: none;
+  		/*text-align: center;*/
+		width: auto;
+  	}
+
+  	#number_of_events {
+  		/*margin: 10px;*/
+  		text-align: center;
+  		width: auto;
+  	}
+
+
+  	#sandbox img{
+  		margin-left: 17%;
+  	}
+
+
+  	#sandbox p.box{
+  		float: none;
+  		width: 100%;
+  		font-size: 18px;
+  		padding-left: 0;
+  	}
+
+  	#sandbox ol{
+  		float: none;
+  		width: 100%;
+  	}
+
+  	.postintro ul li {
+  		margin: 10px;
+  		width: auto;
+  	}
+
+  	.postintro ul {
+  		float: left;
+  	}
+
+  	.postintro ul + ul li{
+		margin: 0 0px 0 0px;
+	}
+
+
+  	#ejemplos img{
+  		margin-left: -83px;
+  		margin-top: -10px;
+  		margin-bottom: 0;
+  	}
+
+
+  	#ejemplos .col{
+  		margin-top: 50px;
+  	}
+
+	.container{
+		/*position:relative;*/
+		width:auto;
+		height: auto;
+		/*margin:0px;*/
+	}	
+
+	.container .tab{
+		height: 0;
+	}
+
+
+	.separador {
+		width: auto;
+		margin-top: 30px;
+	}
+
+
+  	#data{
+  		width: 780px;
+  		height: 225px;
+  	}
+
+  	#forensics #globo {
+  		margin-left: 5%;
+  		width: auto;
+  	}
+
+
+  	.tab .col + .col {
+  		width: auto;
+  		padding-top: 0;
+  	}
+
+
+	.tab .col {
+		width: auto;
+	}
+
+
+	#data .btn1{
+  		left: 53px;
+  		top: 15px;
+  		font-size: 12px;
+  	}
+
+  	#data .btn2{
+  		left: 253px;
+  		top: 72px;
+  		font-size: 12px;
+  	}
+
+  	#data .btn3{
+  		left: 452px;
+  		top: 15px;
+  		font-size: 12px;
+  	}
+
+
+  	#data .actividad1{
+  		left: 38px;
+  		top: 45px;
+  		font-size: 12px;
+  	}
+
+  	#data .actividad2{
+  		left: 35px;
+  		top: 114px;
+  		font-size: 12px;
+  	}
+
+
+  	#data .actividad3{
+  		left: 111px;
+  		top: 172px;
+  		font-size: 12px;
+  	}
+
+  	#data .accion1{
+  		left: 203px;
+  		top: 48px;
+  		font-size: 12px;
+  	}
+
+  	#data .accion2{
+  		left: 249px;
+  		top: 48px;
+  		font-size: 12px;
+  	}
+
+  	#data .accion3{
+  		left: 292px;
+  		top: 45px;
+  		font-size: 12px;
+  	}
+
+  	#data .politica1{
+  		left: 432px;
+  		top: 53px;
+  		font-size: 12px;
+  	}
+
+  	#data p.politica1{
+  		left: 427px;
+  		top: 58px;
+  		width: 93px;
+  		font-size: 9.5px;
+  	}
+
+  	#data .politica2{
+  		left: 395px;
+  		top: 165px;
+  		font-size: 12px;
+  	}
+
+  	#data p.politica2{
+  		left: 395px;
+  		top: 175px;
+  		width: 200px;
+  		font-size: 9.5px;
+  	}
+
+
+
+	.footer .container>div{
+		width: auto;
+	}
+
+
+	.footer ul {
+		float: left;
+		width: 44% !important;
+	}
+
+
+	
+	.intro .container {
+		margin-top: 100px;
+	}	
+}
+
+
+@media screen and (max-width:680px){
+
+	#sandbox img{
+		margin-left: 15%;
+	}
+
+	.panel li.sign-up{
+		margin-left: 0;
+		margin-top: 0;
+	}
+
+	.panel li.login{
+		margin-left: 0;
+		margin-top: 0;
+	}
+}
+
+
+
+
+@media screen and (max-width:480px){
+
+	.panel{
+		position: relative;
+		height: 120px;
+	}
+
+	.panel h1 a {
+		margin-left: 30px;
+		width: 150px;
+	}
+
+	.intro .container{
+		height: 250px;
+	}
+
+	.intro .container div{
+		height: 93%;
+	}
+
+
+	.intro .container{
+		margin-top: 0;
+	}
+
+	iframe{
+		/*width: 240px;
+		height: 160px; 
+		margin-top: 18px;*/
+		width: 95%;
+		height: 100%;
+		margin-top: 2%;
+	}
+
+	.intro p{
+		display: none;
+	}
+
+
+	.postintro .container {
+		width: auto;
+	}
+
+
+  	.postintro ul{
+  		float: none;
+  		width: 100%;
+  	}
+
+  	.postintro ul li{
+  		padding: 0px 0 30px 125px;
+  	}
+
+
+
+  	.postintro li:before{
+  		top: 0px;
+  	}
+
+  	.postintro ul + ul li {
+  		padding: 13px 0 30px 142px;
+  	}
+
+	#Dw{
+		display: inline-block;
+		width: 178px;
+	}
+
+
+	/*nav select{
+		display: block;
+		margin-top: -17%;
+		margin-left: 60%;
+	}
+	*/
+
+	#Dw1{
+		display: inline-table;
+		margin-top: 10px;
+	}
+
+
+	.panel li.sign-up{
+		margin-left: 40px;
+		margin-top: 10px;
+	}
+
+	.panel li.login{
+		margin-left: 1px;
+		margin-top: 10px;
+	}
+
+
+
+	
+
+	#number_of_events .bar{
+		font-size: 40px;
+	}
+
+
+	
+
+
+  	.separador{
+  		margin-top: 10px;
+  	}
+
+
+	#ejemplos .col{
+		width: 97%;
+		margin-top: 10px;
+		margin-bottom: 0;
+	}
+
+
+	#ejemplos .button{
+		margin-top: 10px;
+		margin-left: 8px;
+	}
+
+	/*#ejemplos p{
+		margin-top: -2%;
+		margin-top: 8px;
+	}*/
+
+	#ejemplos img{
+		margin-left: 80px;
+		margin-top: -2%;
+		margin-bottom: 0;
+	}
+
+	#forensics #globo{
+		width: 100%;
+		margin-left: 0;
+	}
+
+
+
+	#sandbox p.box{
+		width: 100%;
+		padding-left: 0;
+		margin-left: 2.5%;
+		font: 18px "Muli-Light",Helvetica,Arial,sans-serif;
+		margin-top: 5px;
+	}
+
+
+
+
+	#sandbox img {
+		width: 44%;
+		margin-left: 4.5%;
+	}
+
+
+	#sandbox img+div{
+		width: 35%;
+		margin-left: 1%;
+		margin-top: 12%;
+	}
+
+	#sandbox ol{
+		width: 99%;
+		margin-top: -15px;
+	}
+
+
+	#sandbox ol li{
+		margin-left: 2%;
+	}
+
+	.tab p{
+		margin-left: 1%;
+		padding-top: 0;
+	}
+
+
+	.tab .col{
+		margin-top: -25px;
+	}
+
+
+	.tab .col + .col{
+		float-right: none;
+		margin-top: 15px;
+	}
+
+
+
+  	.footer ul {
+		float: left;
+		width: 90% !important;
+		margin: 2% 0 0 1%;
+	}
+
+	.footer p{
+		margin-top: 4%;
+	}
+
+	.footer .container>div{
+		margin-left: 10px;
+		margin-top: 15px;
+	}
+  	
+  	.footer p:last-child{
+  		float: left;
+  		margin-top: -10%;
+  	}
+}
+
+
+
+
+
+
+nav select {
+  display: none;
+}
+
+
+#Dw{
+	display: none;
+}
+#Dw1{
+	display: none;
+}
+#Dw2{
+	display: none;
+}
+
+@media screen and (max-width:700px){
+	nav ul     { 
+  		display: none; 
+  	}
+
+	nav select { 
+		display: none; 
+	}
+
+	#data{
+  		background: url('img/dlp_opt9.png') no-repeat;
+  		height: 180px;
+  		margin-bottom: 0;
+  	}
+
+	#Dw{
+	  	display: inline-block;
+	  	width: 255px;
+	}
+
+	#Dw2{
+	  	display: inline-block;
+	  	width: 530px;
+	}
+
+	#Dw1{
+		display: inline-block;
+	}
+
+	.panel li{
+		width: 132px;
+		border-left: 0;
+	}
+
+	.intro .container{
+		margin-top: 0;
+	}
+
+	iframe{
+		margin-top: 0;
+		margin-left: 65px;
+		width: 428px;
+		height: 220px;
+	}
+
+	#team ul{
+		margin: 40px 19px;
+	}
+
+	#team li{
+		font-size: 17px;
+	}
+
+	.tab img{
+		width: 130px;
+	}
+
+
+	/*.tabs{
+		height: 350px;
+	}*/
+
+	#data{
+		height: 380px;
+	}
+
+	.tabs1{
+		height: 330px;
+	}
+
+	.separador{
+		margin-top: -55px;
+	}
+
+	.separador1{
+		margin-top: -55px;
+	}
+}
+
+@media screen and (max-width:540px){
+
+	.panel li.sign-up {
+	    margin-left: 40px;
+	    margin-top: 10px;
+	}
+
+	.panel li.login{
+	    margin-left: 0;
+	    margin-top: 10px;
+	}
+
+	iframe{
+		margin-top: 0;
+		margin-left: 45px;
+		width: 380px;
+		height: 200px;
+	}
+
+	#team ul{
+		margin: 40px 35px;
+	}
+
+	#team li{
+		font-size: 15px;
+	}
+
+	#team img{
+		margin-left: 13px;
+	}
+
+	.tab img{
+		width: 130px;
+	}
+
+	#data{
+  		background: url('img/dlp_opt10.png') no-repeat;
+  		height: 350px;
+  		margin-bottom: 0;
+  	}
+
+  	#data .btn1{
+  		left: 45px;
+  		top: 14px;
+  		font-size: 9px;
+  	}
+
+  	#data .btn2{
+  		left: 220px;
+  		top: 64px;
+  		font-size: 9px;
+  	}
+
+  	#data .btn3{
+  		left: 393px;
+  		top: 14px;
+  		font-size: 9px;
+  	}
+
+
+  	#data .actividad1{
+  		left: 33px;
+  		top: 40px;
+  		font-size: 9px;
+  	}
+
+  	#data .actividad2{
+  		left: 30px;
+  		top: 100px;
+  		font-size: 9px;
+  	}
+
+
+  	#data .actividad3{
+  		left: 90px;
+  		top: 149px;
+  		font-size: 9px;
+  	}
+
+  	#data .accion1{
+  		left: 179px;
+  		top: 42px;
+  		font-size: 9px;
+  	}
+
+  	#data .accion2{
+  		left: 218px;
+  		top: 42px;
+  		font-size: 9px;
+  	}
+
+  	#data .accion3{
+  		left: 254px;
+  		top: 42px;
+  		font-size: 9px;
+  	}
+
+  	#data .politica1{
+  		left: 378px;
+  		top: 48px;
+  		font-size: 9px;
+  	}
+
+  	#data p.politica1{
+  		left: 335px;
+  		top: 60px;
+  		width: 67px;
+  		font-size: 7px;
+  	}
+
+  	#data .politica2{
+  		left: 350px;
+  		top: 143px;
+  		font-size: 9px;
+  	}
+
+  	#data p.politica2{
+  		left: 2310px;
+  		top: 160px;
+  		width: 90px;
+  		font-size: 7px;
+  	}
+
+	#Dw{
+		width: 168px;
+	}
+
+	#Dw2{
+		width: 480px;
+	}
+
+	.panel li{
+		width: 110px;
+	}
+
+	.panel{
+		position: relative;
+	}
+
+	/*.tabs{
+		height: 300px;
+	}*/
+
+	.footer p:last-child{
+		display: none;
+	}
+
+
+}
+
+@media screen and (max-width:445px){
+	nav ul     { 
+  		display: none; 
+  	}
+
+	nav select { 
+		display: inline-block; 
+	}
+
+	.intro .container{
+		height: 190px;
+	}
+
+	#ejemplos img{
+		margin-left: 0;
+	}
+
+	#Dw{
+		display: inline-block;
+		width: 180px;
+	}
+
+	#Dw1{
+	  	display: inline-block;
+	}
+
+	#Dw2{
+		display: none;
+	}
+
+	.panel li{
+		width: 110px;
+	}
+
+	.tabs1{
+		height: 260px;
+	}
+
+	.separador1{
+		margin-top: -55px;
+	}
+
+	.separador{
+		margin-top: -55px;
+	}
+
+	iframe{
+		margin-left: 15px;
+		width: 275px;
+		height: 200px;
+	}
+
+	#our-work p{
+		padding: 10px;
+	}
+
+	#separador{
+		margin-top: -60px;
+	}
+
+	.container.tab{
+		height: 620px;
+	}
+
+	#team ul{
+		margin: 40px 17px;
+	}
+
+	#team li{
+		font-size: 10px;
+	}
+
+	#team img{
+		margin-left: 5px;
+	}
+
+	.tab img{
+		width: 100px;
+	}
+
+
+  	#data{
+  		background: url('img/dlp_opt6.png') no-repeat;
+  		height: 180px;
+  		margin-bottom: 0;
+  		margin-left: 0px;
+  	}
+
+
+
+  	#data .btn1{
+  		left: 30px;
+  		top: 8px;
+  		font-size: 7px;
+  	}
+
+  	#data .btn2{
+  		left: 153px;
+  		top: 44px;
+  		font-size: 7px;
+  	}
+
+  	#data .btn3{
+  		left: 273px;
+  		top: 8px;
+  		font-size: 7px;
+  	}
+
+
+  	#data .actividad1{
+  		left: 23px;
+  		top: 30px;
+  		font-size: 7px;
+  	}
+
+  	#data .actividad2{
+  		left: 20px;
+  		top: 70px;
+  		font-size: 7px;
+  	}
+
+
+  	#data .actividad3{
+  		left: 70px;
+  		top: 104px;
+  		font-size: 7px;
+  	}
+
+  	#data .accion1{
+  		left: 123px;
+  		top: 30px;
+  		font-size: 7px;
+  	}
+
+  	#data .accion2{
+  		left: 150px;
+  		top: 30px;
+  		font-size: 7px;
+  	}
+
+  	#data .accion3{
+  		left: 176px;
+  		top: 30px;
+  		font-size: 7px;
+  	}
+
+  	#data .politica1{
+  		left: 260px;
+  		top: 35px;
+  		font-size: 7px;
+  	}
+
+  	#data p.politica1{
+  		left: 250px;
+  		top: 44px;
+  		width: 50px;
+  		font-size: 5.5px;
+  	}
+
+  	#data .politica2{
+  		left: 240px;
+  		top: 99px;
+  		font-size: 7px;
+  	}
+
+  	#data p.politica2{
+  		left: 232px;
+  		top: 110px;
+  		width: 70px;
+  		font-size: 5.5px;
+  	}
+}

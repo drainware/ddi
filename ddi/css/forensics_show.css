@@ -1,0 +1,140 @@
+
+#content_body{
+    margin:30px;
+}
+#login_content{
+    padding:0px;
+}
+#remote_search,#cancel_search{
+    padding:8px 12px;
+    margin-left:10px;
+}
+fieldset{
+    border:none;
+    border-radius:0px;
+    border-top:1px solid #C8402B;
+    box-shadow:none;
+    width:80%;
+    padding:0px;
+    margin-bottom:20px;
+}
+fieldset fieldset{
+    width:100% !important;
+    border:none !important;
+}
+
+fieldset h2{
+    border-bottom: 1px solid grey;
+}
+
+fieldset>div{
+    padding-top:30px;
+}
+fieldset legend{
+    border:0;
+    font-size:20px;
+    margin-bottom:50px;
+    width:100% !important;
+    border:none !important;
+}
+fieldset.results_accordion legend a{
+    color:black !important;
+    font-size:15px;
+}
+u{
+    font-size:15px;
+    color:#C8402B;
+    padding-left:25px;
+}
+legend div{
+    background:url("../images/triangle1.png") left no-repeat;
+}
+fieldset span{
+    display:block;
+    margin-left: 60px;
+    margin-right:50px;
+    vertical-align:middle !important;
+}
+fieldset p{
+    margin:15px 0px;
+}
+
+fieldset p span{
+    margin-left: 0px;
+}
+
+fieldset input.text{
+    padding:5px !important;
+    width:400px !important;
+}
+
+
+#colorbox td{
+    color:rgb(50,50,50) !important;
+    font-size:1.2em !important;
+}
+#colorbox strong{
+    color:#C8402B !important;
+}
+
+#colorbox h1{
+    font-size:25px;
+    font-weight:400;
+    color:rgb(200, 64, 43);
+    border-bottom:1px solid rgb(200, 64, 43);
+    width:90%;
+    margin-left:15px;
+}
+#colorbox .remote_file.button{
+    background:rgb(200, 64, 43);
+    color:rgb(240,240,240);
+    margin-left:15px;
+}
+
+
+
+@media screen and (max-width:1024px){
+    #content_body {
+        margin: -20px 0px 0px 0px;
+    }
+
+    fieldset {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:580px){
+  fieldset input.text {
+        width: 290px !important;
+    }
+
+    fieldset select {
+        width: 130px;
+    }
+
+}
+
+
+
+@media screen and (max-width:500px){
+    fieldset input.text {
+        width: 208px !important;
+    }
+}
+
+
+
+@media screen and (max-width:380px){
+    #remote_search,#cancel_search{
+        margin-left:0;
+    }
+
+    fieldset p .entitle_short {
+        width: 100%;
+    }
+
+    fieldset input.text {
+        width: 197px !important;
+    }
+}

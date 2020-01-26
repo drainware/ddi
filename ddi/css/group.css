@@ -1,0 +1,186 @@
+
+#content_body{
+    margin:30px;
+}
+
+fieldset{
+    border:none;
+    border-radius:0px;
+    border-top:1px solid #C8402B;
+    box-shadow:none;
+    width:80%;
+    padding:0px;
+    margin-bottom:20px;
+}
+
+fieldset legend{
+    border:0;
+    font-size:20px;
+    margin-bottom:30px;
+}
+fieldset span{
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 110px;
+    margin-right:25px;
+    vertical-align:middle !important;
+}
+fieldset small{
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 270px;
+}
+
+fieldset p{
+    margin:15px 0px;
+}
+fieldset input.text{
+    padding:5px !important;
+    width:300px !important;
+}
+
+#cancel_group_selection {
+  float: right;
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+
+.gpath_input{
+    background-color: #FFFFFF;
+    border: 1px solid #CBCBCB;
+    padding: 6px 5px 6px 5px;
+    width: 175px;
+    vertical-align:top;
+}
+.cancel_path_selection {
+    float: right;
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    left: 605px;
+    top: 108px;
+}
+
+#cboxLoadedContent .form-dlp{
+    border-bottom:1px solid black;
+}
+#colorbox fieldset{
+    width:90%;
+    margin-left:30px;
+}
+
+#colorbox span:first-child{
+    width: auto;
+    max-width: 300px;
+    margin-right: 0px;
+}
+
+#colorbox input.button{
+    float:right;
+    background:#C8402B;
+    color:rgb(240,240,240);
+    margin:0px;
+}
+
+.form-add-path{
+    width: 750px;
+}
+
+.form-dlp div:first-child{
+    width:400px;
+}
+
+#add-group{
+    margin:0px;
+}
+
+#cboxWrapper{
+    width:850px !important;
+}
+
+@media screen and (max-width:1024px){
+    #content_body{
+        margin: -20px 0px 0px 0px;
+    }
+
+    fieldset {
+        width: 100%;
+    }
+
+    #group_input, #groupname_input{
+        width: 84% !important;
+    }
+}
+
+
+@media screen and (max-width:580px){
+    #add-group {
+        margin: 0px;
+        margin-top: 10px;
+    }
+
+    #add-group {
+        margin-top: 0;
+    }
+
+    #groupname_input {
+        width: 320px !important;
+    }
+}
+
+@media screen and (max-width:500px){
+    #groupname_input {
+        width: 235px !important;
+    }
+}
+
+
+@media screen and (max-width:380px){
+    fieldset {
+        width: 290px;
+    }
+    
+    #groupname_input {
+        width: 198px !important;
+    }
+
+    #colorbox fieldset {
+        margin-left: 0; 
+    }
+
+    #ancho-gru{
+        width: 290px !important;
+    }
+
+    #colorbox input.button {
+        margin-right: 10px;
+    }
+}
+
+
+
+
+<!--[if lt IE 7 ]>.form-dlp{
+    margin-left:40%;
+} <![endif]-->
+<!--[if IE 7 ]> 
+margin-left:40%;
+<![endif]-->
+<!--[if IE 8 ]> 
+margin-left:40%;
+<![endif]-->
+margin-left:40%;
+<!--[if IE 9 ]> 
+margin-left:40%;
+<![endif]-->
+
+
+
+
